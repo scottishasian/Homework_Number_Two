@@ -2,10 +2,14 @@ def return_10
   return 10
 end
 
-def add(apple, pear)
-  return apple + pear
+def add(number_1, number_2)
+  return number_1 + number_2
 end
 
-def subtract(orange, kiwi)
-  return orange - kiwi
+def subtract(number_1, number_2)
+  return number_1 - number_2
+end
+
+def multiply(number_1, number_2)
+  return number_1 * number_2
 end
