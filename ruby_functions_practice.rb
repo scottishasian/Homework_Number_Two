@@ -58,6 +58,14 @@ def number_to_short_month_name(month)
   end
 end
 
+#def number_to_short_month_name(month)
+#   full_month_name = number_to_full_month_name(month)
+#   return full_month_name.slice(0,3)
+#end
+
+#This calls the number_to_full_month_name function, then
+#slices the month name by 3 characters.
+
 def volume_of_cube(length)
   return length**3
 end
